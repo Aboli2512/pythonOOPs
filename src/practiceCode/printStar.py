@@ -22,28 +22,28 @@
 
 
 
-## inverted triangle
-# rows = 5 
-# symbol = "*"
-# print((symbol + " ") * rows) 
+# inverted triangle
+rows = 5 
+symbol = "*"
+print((symbol + " ") * rows) 
 
-# for i in range (1, rows):
-#     print((" " * i)+ (symbol + " ") * (rows - i))
+for i in range (1, rows):
+    print((" " * i)+ (symbol + " ") * (rows - i))
 
 
 
 
 ## hollow traingle
 
-rows = 5
-symbol = "*"
+# rows = 5
+# symbol = "*"
 
-# Print the top of the triangle (base of original)
-print((symbol + " ")* rows)
+# # Print the top of the triangle (base of original)
+# print((symbol + " ")* rows)
 
-# Print the middle rows
-for i in range(1, rows - 1):
-    print(" " * i + symbol + " " * (2 * (rows - i - 1) - 1) + symbol)
+# # Print the middle rows
+# for i in range(1, rows - 1):
+#     print(" " * i + symbol + " " * (2 * (rows - i - 1) - 1) + symbol)
 
-# Print the tip of the inverted triangle
-print(" " * (rows - 1) + symbol)
+# # Print the tip of the inverted triangle
+# print(" " * (rows - 1) + symbol)
