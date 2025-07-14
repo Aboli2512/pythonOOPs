@@ -27,11 +27,11 @@
 # variable = a.CalculateArea()
 # if variable
 
-# myDict = {}
+myDict = {}
 myList1 = ['apple' , 'banana', 'cherry', 'kiwi']
 myList2 = ['red', 'yellow', 'orange', 'green']
-# a = tuple(myList1)
-# b = tuple(myList2)
+a = tuple(myList1)
+b = tuple(myList2)
 
 # keys = myList1
 # values = myList2
@@ -49,7 +49,7 @@ myList2 = ['red', 'yellow', 'orange', 'green']
 
 # print(myDict)
 # print(myDict[myList1[1]])
-myDict = {}
+# myDict = {}
 # myDict[myList1[0]] = myList2[0]
 # myDict[myList1[1]] = myList2[1]
 # myDict[myList1[2]] = myList2[2]
@@ -59,8 +59,8 @@ myDict = {}
 # print(myDict)
 
 
-# for i in range (4):
-#     keys = a
-#     values = b
-#     myDict.update({keys : values})
-# print(myDict)
+for i in range (4):
+    keys = a
+    values = b
+    myDict.update({keys : values})
+print(myDict)
